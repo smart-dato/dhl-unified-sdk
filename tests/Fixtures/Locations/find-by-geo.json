@@ -1,0 +1,79 @@
+{
+    "locations": [
+        {
+            "url": "/locations/8003-4103145",
+            "location": {
+                "ids": [
+                    {
+                        "locationId": "8003-4103145",
+                        "provider": "parcel"
+                    }
+                ],
+                "keyword": "Packstation",
+                "keywordId": "145",
+                "type": "locker"
+            },
+            "name": "Packstation 145",
+            "distance": 120,
+            "place": {
+                "address": {
+                    "countryCode": "DE",
+                    "postalCode": "53113",
+                    "addressLocality": "Bonn",
+                    "streetAddress": "Charles-de-Gaulle-Str. 20"
+                },
+                "geo": {
+                    "latitude": 50.7134,
+                    "longitude": 7.1294
+                }
+            },
+            "openingHours": [
+                {
+                    "opens": "00:00:00",
+                    "closes": "23:59:00",
+                    "dayOfWeek": "http://schema.org/Monday"
+                }
+            ],
+            "closurePeriods": [],
+            "serviceTypes": [
+                "parcel:pick-up-registered",
+                "parcel:drop-off"
+            ]
+        },
+        {
+            "url": "/locations/8003-4102502",
+            "location": {
+                "ids": [
+                    {
+                        "locationId": "8003-4102502",
+                        "provider": "parcel"
+                    }
+                ],
+                "keyword": "Postfiliale",
+                "keywordId": "502",
+                "type": "postoffice"
+            },
+            "name": "Postfiliale 502",
+            "distance": 480,
+            "place": {
+                "address": {
+                    "countryCode": "DE",
+                    "postalCode": "53111",
+                    "addressLocality": "Bonn",
+                    "streetAddress": "Münsterplatz 17"
+                },
+                "geo": {
+                    "latitude": 50.7341,
+                    "longitude": 7.0998
+                }
+            },
+            "openingHours": [],
+            "closurePeriods": [],
+            "serviceTypes": [
+                "parcel:pick-up",
+                "parcel:drop-off",
+                "letter-service"
+            ]
+        }
+    ]
+}
